@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar";
 export default function Nav({setData}) {
     return (
         <nav className="nav-bar">
-            <img src="./forecast-logo.png" className="logo" />
+            <img alt="logo" src="./forecast-logo.png" className="logo" />
             <h2 className="title">Clima</h2>
             <SearchBar setData={setData} />
         </nav>
